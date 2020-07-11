@@ -14,6 +14,8 @@ class ${upper_case_feature_name}View extends View {
   static get routeName => '/${upper_case_feature_name}'
   final ${upper_case_feature_name}ControllerImpl controllerImpl;
 
+  ${upper_case_feature_name}View(this.controllerImpl);
+
   @override
   _${upper_case_feature_name}ViewState generateState() => _${upper_case_feature_name}ViewState(controllerImpl);
 }

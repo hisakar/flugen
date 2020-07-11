@@ -1,7 +1,9 @@
 #!/bin/bash
 
+ WORKING_DIRECTORY="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
  BASE_DIR="./lib/base"
  MAIN_DIR="./lib/main.dart"
+ IOC_DIR="./lib/injection_container.dart"
  CONTROLLER_DIR="./lib/controllers"
  CONTROLLER_CONTRACT_DIR="./lib/controllers/contracts"
  CONTROLLER_IMPL_DIR="./lib/controllers/implementations"

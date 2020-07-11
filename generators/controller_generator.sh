@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source ./paths.sh
-source ./str_manipulator.sh
+source paths.sh
+source str_manipulator.sh
 
 generate_controller(){
     generate_controller_contract $1

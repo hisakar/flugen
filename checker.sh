@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 function check_feature_name(){
     feature_name=$1
     if ((${#feature_name}==0))
